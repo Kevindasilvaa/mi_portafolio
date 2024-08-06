@@ -39,35 +39,3 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
-
-//enviar email a kevindasilva308@gmail.com
-(function() {
-    emailjs.init("kevindasilva308@gmail.com"); // Reemplaza con tu ID de usuario de EmailJS
-})();
-
-document.getElementById('sendButton').addEventListener('click', function(event) {
-    event.preventDefault(); // Evita el envío del formulario por defecto
-
-    const name = document.getElementById('name').value;
-    const phone = document.getElementById('phone').value;
-    const email = document.getElementById('email').value;
-    const subject = document.getElementById('subject').value;
-    const message = document.getElementById('message').value;
-
-    const templateParams = {
-        from_name: name,
-        from_phone: phone,
-        from_email: email,
-        subject: subject,
-        message: message
-    };
-
-    emailjs.send('kevindasilva308@gmail.com', 'kevindasilva308@gmail.com', templateParams)
-        .then(function(response) {
-            console.log('SUCCESS!', response.status, response.text);
-            alert('Mensaje enviado con éxito!');
-        }, function(error) {
-            console.log('FAILED...', error);
-            alert('Error al enviar el mensaje. Inténtalo de nuevo.');
-        });
-});
