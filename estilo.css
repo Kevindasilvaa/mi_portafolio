@@ -211,6 +211,11 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+.no-style {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
@@ -594,7 +599,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -715,9 +720,4 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
-}
-.no-style {
-    text-decoration: none; /* Elimina el subrayado */
-    color: inherit; /* Hereda el color del texto del elemento padre */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
 }
