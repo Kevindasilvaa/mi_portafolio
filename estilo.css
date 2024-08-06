@@ -638,6 +638,10 @@ footer .redes a{
     font-size: 20px;
     transition: .3s;
 }
+footer .redes a:hover {
+    background-color: #1CB698; /* Color azul de fondo al pasar el mouse */
+    color: #fff; /* Mantener el color del texto blanco */
+}
 footer .arriba{
     display: block;
     width: 50px;
