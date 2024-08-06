@@ -39,3 +39,10 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+document.getElementById('contactForm').onsubmit = function() {
+    const redirectUrl = 'https://kevindasilvaa.github.io/mi_portafolio/'; 
+    setTimeout(function() {
+      window.location.href = redirectUrl;
+    }, 1000);
+  };
