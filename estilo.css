@@ -29,7 +29,8 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: orange;
+    /* color: #1CB698; */
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,10 +46,12 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: orange;
+    /* color: #1CB698; */
 }
 .nav-responsive{
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -79,7 +82,8 @@ html{
     overflow: hidden; 
     border-radius: 100%;
     margin: auto;
-    border: 10px solid #1CB698; 
+    /* border: 10px solid #1CB698;  */
+    border: 10px solid orange; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,9 +110,28 @@ html{
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+
+/* Estilos específicos para el link de cada red social de la parte superior*/
+.inicio .contenido-banner .redes .facebook:hover {
+    background-color: #3B5998; /* Azul de Facebook */
 }
+
+.inicio .contenido-banner .redes .twitter:hover {
+    background-color: #1DA1F2; /* Azul de Twitter */
+}
+
+.inicio .contenido-banner .redes .instagram:hover {
+    background-color: #E4405F; /* Rosa de Instagram */
+}
+
+.inicio .contenido-banner .redes .linkedin:hover {
+    background-color: #0077B5; /* Azul de LinkedIn */
+}
+
+.inicio .contenido-banner .redes .telegram:hover {
+    background-color: #0088CC; /* Azul de Telegram */
+}
+
 .sobremi{
     background-color: #1e2326;
     color: #fff;
@@ -131,7 +154,8 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    /* color: #1CB698; */
+    color: orange;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -154,11 +178,13 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    /* color: #1CB698; */
+    color: orange;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -179,7 +205,8 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -204,7 +231,8 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     z-index: -1;
     transition: 1s;
 }
@@ -258,7 +286,8 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     position: absolute;
     top: 0;
     left: 0;
@@ -268,7 +297,8 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -413,30 +443,35 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    /* color: #1CB698; */
+    color: orange;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    /* color: #1CB698; */
+    color: orange;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    /* border-right: 2px solid #1CB698; */
+    border-right: 2px solid orange;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    /* border-left: 2px solid #1CB698; */
+    border-left: 2px solid orange;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -448,14 +483,16 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -467,7 +504,8 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     float: left;
     position: relative;
     bottom: 4px;
@@ -511,7 +549,8 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    /* background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8)); */
+    background: linear-gradient(rgba(255, 165, 0, 0.8), rgba(255, 165, 0, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -584,7 +623,8 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     z-index: -1;
     transition: 1s;
 }
@@ -610,7 +650,8 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    /* color: #1CB698; */
+    color: orange;
     display: inline-block;
     margin-right: 20px;
 }
@@ -638,15 +679,33 @@ footer .redes a{
     font-size: 20px;
     transition: .3s;
 }
-footer .redes a:hover {
-    background-color: #1CB698; /* Color azul de fondo al pasar el mouse */
-    color: #fff; /* Mantener el color del texto blanco */
+/* Estilos específicos para el link de cada red social de la parte inferior*/
+footer .redes .facebook:hover {
+    background-color: #3B5998; /* Azul de Facebook */
 }
+
+footer .redes .twitter:hover {
+    background-color: #1DA1F2; /* Azul de Twitter */
+}
+
+footer .redes .instagram:hover {
+    background-color: #E4405F;
+}
+
+footer .redes .linkedin:hover {
+    background-color: #0077B5; /* Azul de LinkedIn */
+}
+
+footer .redes .telegram:hover {
+    background-color: #0088CC; /* Azul de Telegram */
+}
+  
 footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    /* background-color: #1CB698; */
+    background-color: orange;
     color: #fff;
     position: absolute;
     left: 50%;
